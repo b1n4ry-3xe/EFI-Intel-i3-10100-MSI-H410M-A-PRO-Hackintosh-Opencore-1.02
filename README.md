@@ -21,8 +21,11 @@
 
 
 *	go to OpenCore-1.0.2-RELEASE\Utilities\macrecovery  
-*	then open CMD in this folder and download Monterey recovery:
+*	then open CMD in that directory and download Monterey recovery with following command:
 
 ```javascript
 py macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000 download
 ```
+
+*    create a new folder named "com.apple.recovery.boot" and copy the downloaded files (BaseSystem.dmg and BaseSystem.chunklist) into that folder.
+*    
