@@ -19,8 +19,9 @@
 
 
 
-go to OpenCore-1.0.2-RELEASE\Utilities\macrecovery  
-open CMD and download Monterey recovery
+
+*	go to OpenCore-1.0.2-RELEASE\Utilities\macrecovery  
+*	then open CMD in this folder and download Monterey recovery:
 
 ```javascript
 py macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000 download
